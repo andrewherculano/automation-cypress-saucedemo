@@ -15,6 +15,7 @@
 
 // Import commands.js using ES2015 syntax:
 import './commands'
+import './ui/login_commands'
 
 /** Não carrega os XHR */
 const app = window.top;
