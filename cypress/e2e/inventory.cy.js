@@ -3,6 +3,7 @@ describe('inventory specs', () => {
         cy.ui_login('standard_user', 'secret_sauce')
         cy.ui_addProductToCard('[data-test="add-to-cart-sauce-labs-backpack"]', '1')
         cy.ui_addProductToCard('[data-test="add-to-cart-sauce-labs-bolt-t-shirt"]', '2')
+        cy.ui_validadeProductInCart('Sauce Labs Backpack')
     })
 
     it('remove products to card', () => {
